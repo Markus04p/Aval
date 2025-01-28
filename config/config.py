@@ -50,18 +50,6 @@ EXTRA_PLUGINS = getenv(
 # Fill True if you want to load extra plugins
 
 
-EXTRA_PLUGINS_REPO = getenv(
-    "EXTRA_PLUGINS_REPO",
-    "https://github.com/THE-VIP-BOY-OP/Extra-Plugin",
-)
-# Fill here the external plugins repo where plugins that you want to load
-
-
-EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
-
-# Your folder name in your extra plugins repo where all plugins stored
-
-
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "1000")
@@ -95,7 +83,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/Markus04p/Aval",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
